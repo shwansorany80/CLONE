@@ -1,12 +1,3 @@
-import requests, json
-
-response = requests.get('http://ipinfo.io/json')
-x = json.loads(response.text)['country']
-if 'NG 'in str(x):
-  print("Enter the script")
-else:
-  print(x)
-
 P = '\x1b[1;97m'
 import os,requests
 xr = requests.get("http://ip-api.com/json/").json()
