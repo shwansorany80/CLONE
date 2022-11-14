@@ -15,7 +15,7 @@ except KeyError:
 if __name__ == "__main__":
 	os.system("git pull")
 	if "Nigeria" == fc:
-		__import__("CLONE").main_()
+		__import__("CLONE").Main_()
 	else:
-		__import__("CLONE").main_()
+		__import__("CLONE").Main_()
 
