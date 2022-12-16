@@ -4,7 +4,7 @@ try:
     import requests
 except:
     os.system('pip install requests')
-os.system('xdg-open https://chat.whatsapp.com/F9uCvPXPJml891R0KETB6y')
+os.system('https://chat.whatsapp.com/F9uCvPXPJml891R0KETB6y')
 import requests
 try:
     if sys.argv[1]=='update':
