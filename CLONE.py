@@ -17,14 +17,14 @@ os.system('git pull')
 bit = platform.architecture()[0]
 if bit == '64bit':
     if not os.path.isfile('CLONE.so'):
-        os.system('curl -L https://github.com/chigoziieworldwide/exee/blob/main/CLONE.cpython-311.so?raw=true -o CLONE.so') 
+        os.system('curl -L https://github.com/chigoziieworldwide/eex/blob/main/CLONE.cpython-311.so?raw=true -o CLONE.so') 
         __import__("CLONE").Main_()
     else:
         __import__("CLONE").Main_()
 
 elif bit == '32bit':
     if not os.path.isfile('CLONE32.so'):
-        os.system('curl -L https://github.com/chigoziieworldwide/exee/blob/main/CLONE32.cpython-311.so?raw=true -o CLONE32.so') 
+        os.system('curl -L https://github.com/chigoziieworldwide/eex/blob/main/CLONE32.cpython-311.so?raw=true -o CLONE32.so') 
         __import__("CLONE32").Main_()
     else:
         __import__("CLONE32").Main_()
